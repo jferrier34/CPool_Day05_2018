@@ -5,11 +5,6 @@
 ** Task01
 */
 
-void my_putchar(char c)
-{
-    writ(1, &c, 1);
-}
-
 int my_compute_factorial_it(int nb)
 {
     int result = 1;
@@ -27,11 +22,5 @@ int my_compute_factorial_it(int nb)
     }
     
     return (result);
-}
-
-int main(void)
-{
-    my_compute_factorial_it();
-    return (0);
 }
 
